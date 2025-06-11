@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="orangeHRM" thread-count="6" parallel="classes">
+    <!-- Comment out groups to run everything -->
+
+    <test name="orangeHRMActivities">
+        <classes>
+            <class name="orangeHRM.Activity1" />
+            <class name="orangeHRM.Activity2" />
+            <class name="orangeHRM.Activity3" />
+            <class name="orangeHRM.Activity4" />
+            <class name="orangeHRM.Activity5" />
+            <class name="orangeHRM.Activity6" />
+            <class name="orangeHRM.Activity7" />
+            <class name="orangeHRM.Activity8" />
+            <class name="orangeHRM.Activity9" />
+            
+        </classes>
+    </test>
+</suite>
